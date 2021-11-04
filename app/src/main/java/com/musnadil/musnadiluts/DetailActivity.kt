@@ -15,7 +15,7 @@ class DetailActivity : AppCompatActivity() {
         //set back button
         actionbar.setDisplayHomeAsUpEnabled(true)
 
-        imageViewDetail.setImageResource(intent.getIntExtra("gambar", R.drawable.rendang))
+        imageViewDetail.setImageResource(intent.getIntExtra("gambar", R.drawable.jateng))
         textViewNamaDetail.text = intent.getStringExtra("nama")
         textViewAsalDaerah.text = intent.getStringExtra("asal")
         textViewDeskripsiDetail.text = intent.getStringExtra("deskripsi")
